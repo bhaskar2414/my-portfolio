@@ -315,6 +315,13 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Projects</h2>
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <ProjectCard
+                title="SuperScout"
+                period="12/2023 - Present"
+                description="Built a robust location and media management system (SuperScout.ai) allowing users to curate their own private location database and import assets from platforms such as SmugMug, Dropbox, and Google Drive."
+                link="https://superscout.ai"
+                technologies={["Vue.js", "Node.js", "OpenAI API", "RESTful APIs", "Responsive Design"]}
+              />
               <ProjectCard
                 title="Tutti"
                 period="04/2022 - Present"
